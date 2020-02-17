@@ -5,6 +5,7 @@
 @import '_buttons.scss';
 @import '_modal.scss';
 
+
 // --- Loading Spinner Animation --- //
 
 @keyframes spinner {
@@ -136,32 +137,36 @@ body {
   padding-bottom: 4rem;
 }
 
-.table-container {
-  min-width: 30rem;
-  margin: 0 1rem;
-  border: 1px solid $greyBlue;
-  border-radius: 0.6rem;
-  background-color: $white;
-  overflow: hidden;
-}
+.filedrop {
 
-table {
-  width: 100%;
-  border-collapse: separate;
-  padding: 0.6rem 1rem;
-  line-height: 2.6rem;
-  text-align: left;
-  font-size: 1.6rem;
-}
+  .table-container {
+    min-width: 30rem;
+    margin: 0 1rem;
+    border: 1px solid $greyBlue;
+    border-radius: 0.6rem;
+    background-color: $white;
+    overflow: hidden;
+  }
 
-td,
-th {
-  padding-left: 10px;
-  text-align: left;
-}
+  table {
+    width: 100%;
+    border-collapse: separate;
+    padding: 0.6rem 1rem;
+    line-height: 2.6rem;
+    text-align: left;
+    font-size: 1.6rem;
+  }
 
-th {
-  font-weight: normal;
+  td,
+  th {
+    padding-left: 10px;
+    text-align: left;
+  }
+
+  th {
+    font-weight: normal;
+  }
+
 }
 
 .has-issues {
@@ -266,19 +271,66 @@ th {
 
 .type-danger {
   background-color: rgba(255, 0, 0, 0.3);
-  opacity: .8;
-  border: 10;
-  border-color: black;
-  border-width: 10px;
+
+  &:nth-of-type(odd) {
+    background-color: darken(rgba(255, 0, 0, 0.35), 10%);
+  }
+}
+
+.type-warning {
+  background-color: rgba(255, 140, 46, 0.274);
+
+  &:nth-of-type(odd) {
+    background-color: darken(rgba(255, 140, 46, 0.32), 10%);
+  }
 }
 
 .header-row {
-  background-color: darken($blueGrey, 5%);
-  letter-spacing: 0.1rem;
   font-size: 1.8rem;
-  color: $white;
+
+  th {
+    color: #0c3450;
+    padding: 10px 0 10px 8px;
+    border-bottom: 1px solid #4592b0;
+    font-size: 1.4rem;
+    line-height: 1.3rem;
+  }
 }
 
 .results-section {
-  padding-top: 10px;
+  padding-top: 2rem;
+
+  td {
+    font-size: 1.4rem;
+  }
 }
+
+.file-attributes {
+
+
+  tbody {
+
+    tr {
+      line-height: 3rem;
+
+      &:nth-of-type(odd):not(.type-danger):not(.type-warning) {
+        background-color: #f9f9f9;
+      }
+
+      &:nth-of-type(even):not(.type-danger):not(.type-warning) {
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .file-attributes {
+      table {
+        min-width: 60rem;
+        max-width: 80%;
+      }
+  }
+}
+
+@import "./swagger-ui";
