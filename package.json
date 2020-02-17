@@ -35,6 +35,7 @@
     "jest-environment-jsdom-fourteen": "0.1.0",
     "jest-resolve": "24.9.0",
     "jest-watch-typeahead": "0.4.0",
+    "js-yaml": "^3.13.1",
     "jszip": "^3.2.2",
     "mini-css-extract-plugin": "0.8.0",
     "optimize-css-assets-webpack-plugin": "5.0.3",
@@ -50,6 +51,7 @@
     "react-dom": "^16.12.0",
     "react-loader-spinner": "^3.1.5",
     "react-promise-tracker": "^2.0.5",
+    "react-router-dom": "^5.1.2",
     "react-transition-group": "^4.3.0",
     "react-xml-parser": "^1.1.3",
     "resolve": "1.12.0",
@@ -100,7 +102,8 @@
     "gh-pages": "^2.2.0",
     "jest": "^24.9.0",
     "node-sass": "^4.13.0",
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "swagger-ui-react": "^3.25.0"
   },
   "jest": {
     "roots": [
