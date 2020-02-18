@@ -4,19 +4,17 @@
       description: Detects the real file type of a file.
       version: 0.1.9
     servers:
-      - url: https://xugc5ib648.execute-api.eu-west-1.amazonaws.com/Prod/
+      - url: https://igjg14zxy0.execute-api.us-east-2.amazonaws.com/
         description: AWS
+      - url: https://xugc5ib648.execute-api.eu-west-1.amazonaws.com/Prod/
+        description: AWS (Dinis)
+      - url: https://gw-engine-filetypedetection.azurewebsites.net/
+        description: Azure
     paths:
       /api/FileTypeDetection:
         post:
           summary: Returns a file type for the given file.
           description: Returns the file type detected by the Glasswall Engine.
-          parameters:
-            - in: header
-              name: x-api-key
-              schema:
-                type: string
-              required: true
           requestBody:
             content:
               "multipart/form-data":
