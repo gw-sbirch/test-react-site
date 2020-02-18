@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/test-react-site/static/css/main.79692053.chunk.css",
+    "main.js": "/test-react-site/static/js/main.b28c3a3f.chunk.js",
+    "main.js.map": "/test-react-site/static/js/main.b28c3a3f.chunk.js.map",
+    "runtime-main.js": "/test-react-site/static/js/runtime-main.ac5f4cf9.js",
+    "runtime-main.js.map": "/test-react-site/static/js/runtime-main.ac5f4cf9.js.map",
+    "static/css/2.67d9df46.chunk.css": "/test-react-site/static/css/2.67d9df46.chunk.css",
+    "static/js/2.77eb4b32.chunk.js": "/test-react-site/static/js/2.77eb4b32.chunk.js",
+    "static/js/2.77eb4b32.chunk.js.map": "/test-react-site/static/js/2.77eb4b32.chunk.js.map",
+    "index.html": "/test-react-site/index.html",
+    "precache-manifest.efddbb7b1600373ae450744b05fab692.js": "/test-react-site/precache-manifest.efddbb7b1600373ae450744b05fab692.js",
+    "service-worker.js": "/test-react-site/service-worker.js",
+    "static/css/2.67d9df46.chunk.css.map": "/test-react-site/static/css/2.67d9df46.chunk.css.map",
+    "static/css/main.79692053.chunk.css.map": "/test-react-site/static/css/main.79692053.chunk.css.map",
+    "static/media/api.yaml": "/test-react-site/static/media/api.980d9789.yaml",
+    "static/media/App.css": "/test-react-site/static/media/roboto-regular-webfont.d96d07c1.woff2",
+    "static/media/logo.svg": "/test-react-site/static/media/logo.f2df34b5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac5f4cf9.js",
+    "static/css/2.67d9df46.chunk.css",
+    "static/js/2.77eb4b32.chunk.js",
+    "static/css/main.79692053.chunk.css",
+    "static/js/main.b28c3a3f.chunk.js"
+  ]
+}
