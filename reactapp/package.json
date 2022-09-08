@@ -36,7 +36,7 @@
     "jest-resolve": "24.9.0",
     "jest-watch-typeahead": "0.4.0",
     "js-yaml": "^3.13.1",
-    "jszip": "^3.2.2",
+    "jszip": "^3.7.0",
     "mini-css-extract-plugin": "0.8.0",
     "optimize-css-assets-webpack-plugin": "5.0.3",
     "pnp-webpack-plugin": "1.5.0",
